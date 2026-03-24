@@ -551,7 +551,7 @@ Dereka</div>
         document.addEventListener('copy', function(e) {
             const selectedText = window.getSelection().toString();
             if (selectedText.length > 50) { // Only add copyright for substantial copies
-                const copytext = selectedText + "\n\n© 2025 Dereka M. Smith - Cold Email Outreach Sequence\nhttps://www.linkedin.com/in/dereka-smith426/";
+                const copytext = selectedText + "\n\n© 2026 Dereka M. Smith - Cold Email Outreach Sequence\nhttps://www.linkedin.com/in/dereka-smith426/";
                 e.clipboardData.setData('Text', copytext);
                 e.preventDefault();
             }
@@ -561,7 +561,7 @@ Dereka</div>
         document.addEventListener('selectstart', function(e) {
             if (e.target.closest('.email-body') || e.target.closest('.strategy-note')) {
                 // Allow selection but show warning
-                console.log('Content is protected by copyright © 2025 Dereka M. Smith');
+                console.log('Content is protected by copyright © 2026 Dereka M. Smith');
             }
         });
 
